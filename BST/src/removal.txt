@@ -1,0 +1,39 @@
+insert topleftCorner 0 0 7 6
+insert rec15 50 50 100 25
+insert rec1 50 50 100 25
+insert virtualrec1 700  250 1 1 
+insert val9 24 23 4 1
+insert XYZ 423 643 23 300
+insert xyz 450 123 6 1
+insert rand 81 818 15 12
+insert rect9 7 71 34 51
+insert rect9 73 4 12 45
+
+remove 423 643 23 300
+remove rand13
+remove 50 50 12 12
+remove rect9
+remove rect9
+remove rect9
+remove val9
+
+dump
+
+insert rand37 802 446 171 2
+insert rejected 132 123 42 -2
+insert rejected 132 123 0 5
+insert 4cornersrec 911 809 93 144
+insert stupid_dim 99592 142 16 843
+insert stupid_dim 90 -100 16 843
+insert validOne 24 23 5 1
+insert ThisIsValidToo 24 23 4 1
+insert rand23 521 752 335 181
+insert reject2 545 24 21 3333
+
+remove 24 23 4 1
+remove rand37
+remove 81 818 15 12
+remove rejected
+remove -23 5 12 4
+
+dump
